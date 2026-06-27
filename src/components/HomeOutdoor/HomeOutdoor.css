@@ -1,0 +1,73 @@
+
+.home-outdoor{
+  display: flex;
+  gap: 0px;
+  border: 1px solid black;
+  border-radius:3px;
+  margin-top: 10px;
+  height:300x;
+}
+
+.left-banner{
+  width: 25%;
+  height: 300px;
+  background-size: cover;
+}
+.left-banner img{
+  width: 280px;
+  height: 300px;
+
+}
+.left-banner button{
+  position: relative;
+  right: 70px;
+  bottom:225px;
+  border: 0.5px solid black;
+  border-radius: 3px;
+  width: 120px;
+  height:30px;
+}
+.left-banner button:hover{
+  cursor:pointer ;
+  background-color: skyblue;
+}
+.home-products-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.home-card{
+  border: 0.3px solid grey;
+  height: 150px;
+  width: 211px;
+  padding: 15px;
+  position: relative;
+  overflow: hidden;
+  background-color:white ;
+}
+.home-card:hover{
+  cursor: pointer;
+}
+
+.home-card h4{
+  width: 60%;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: black;
+  background-color: white;
+} 
+
+.home-card p{
+  width: 60%;
+  color: black;
+  background-color: white;
+}
+
+.home-card img{
+  width: 70px;
+  height: 7npm 0px;
+  object-fit: contain;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}

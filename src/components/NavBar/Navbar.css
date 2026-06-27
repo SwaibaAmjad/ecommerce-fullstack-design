@@ -1,0 +1,148 @@
+
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px;
+  height: 70px;
+  background-color: white;
+}
+.nav-logo img{
+  width: auto;
+  height: 190px;
+  padding-top : 25px;
+  background-color: white;
+
+}
+.nav-search-container{
+  display:flex;
+  gap:0px;
+  border: 2px solid #173EFF;
+  border-top-right-radius: 10px ;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: white;
+}
+
+.nav-search-container input{
+  width:300px;
+  padding:10px;
+  border: none;
+  border-right: 2px solid #173EFF;
+  background-color: white;
+}
+.nav-search-container button{
+  width: 100px;
+  background-color: #173EFF;
+  border: none;
+
+}
+.nav-search-container select{
+  border: none;
+  background-color: white;
+}
+
+.nav-icons{
+  display:flex;
+  gap:15px;
+  margin-left: 80px;
+  margin-right:20px;
+  color:#8B96A5 ;
+  background-color: white;
+}
+.nav-icons-1{
+  background-color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.nav-icons-1:hover {
+  color: #173EFF;
+}
+.subnav{
+  display:flex;
+  gap:20px;
+  padding:15px;
+  border:1px solid #E5E5E5;
+  color: black;
+  background-color: white;
+}
+.subnav span{
+  background-color: white;
+}
+.menu-icon {
+  display: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+.subnav button{
+  margin-left: 500px;
+  border: none;
+  font-size: 20px ;
+  background: transparent;
+  cursor: pointer;
+}
+.admin-icon{
+  margin-right:10px;
+  background-color: white;
+}
+
+@media (max-width: 768px) {
+
+  .navbar {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+  }
+
+  /* Logo center/adjust */
+  .nav-logo img {
+    height: 90px;
+    padding-top: 0;
+  }
+
+  /* Search full width */
+  .nav-search-container {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+  }
+
+  .nav-search-container input {
+    width: 100%;
+  }
+
+  /* Icons hidden by default mobile */
+  .nav-icons {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 120px;
+    right: 10px;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    gap: 10px;
+    z-index: 999;
+  }
+
+  /* when menu open */
+  .nav-icons.active {
+    display: flex;
+  }
+
+  /* menu icon show */
+  .menu-icon {
+    display: block;
+    font-size: 22px;
+    cursor: pointer;
+    color: #173EFF;
+  }
+
+  /* subnav wrap */
+  .subnav {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}

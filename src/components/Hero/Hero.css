@@ -1,0 +1,106 @@
+
+.hero{
+  display:flex;
+  gap:20px;
+  padding:20px;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color:white ;
+}
+.hero-container{
+  height: 300px;
+  width: 300px;
+} 
+ul{
+  list-style-type: none;
+  text-align: left;
+  background-color:white ;
+}
+li{
+  margin-bottom: 6px;
+  padding: 2px;
+  background-color: white;
+  cursor: pointer;
+}
+.hero-banner{
+  width:60%;
+  margin-top: 0px;
+}
+.hero-banner img{
+  width: 100%;
+  height: 330px;
+  object-fit: contain;
+  }
+  .hero-learn-btn{
+  position: absolute;
+  bottom: 280px;
+  left:460px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.hero-side-cards{
+  width:200px;
+  height: 330px;
+  background-color: white;
+}
+.hero-card{
+  background-color:#E3F0FF;
+  height: 100px;
+}
+.hero-card,
+.hero-offer-card{
+  padding:5px;
+  margin-bottom:10px;
+  border-radius:10px;
+}
+.hero-offer-card-1{
+  padding:13px;
+  margin-bottom:5px;
+  border-radius:10px;
+  background:#264F3D;
+  text-align: left;
+  color: white;
+}
+.hero-offer-card-2{
+  padding:13px ;
+  margin-bottom:5px;
+  border-radius:10px;
+  background-color: #55BDC4;
+  text-align: left;
+  height:95px;
+  color: black;
+}
+.hero-user-info{
+  display:flex ;
+  gap: 10px;
+  background-color:#E3F0FF ;
+}
+.hero-user-info h4{
+ background-color:#E3F0FF;
+ color:black;
+}
+.hero-user-icon{
+  background-color: #E3F0FF;
+  margin-top:6px;
+}
+.hero-card-btn {
+  margin-top:4px; ;
+  display: flex;
+  width: 160px;
+  height: 25px;
+  border: 0.5px solid grey ;
+  border-radius: 2px;
+  gap: 10px;
+}
+.hero-card-btn:hover{
+  background-color: #066FFF;
+  cursor:pointer ;
+}
+li.active {
+  background-color: #173EFF;
+  color: white;
+  border-radius: 5px;
+}

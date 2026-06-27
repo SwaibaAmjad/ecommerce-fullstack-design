@@ -1,0 +1,53 @@
+.discount-banner {
+  width: 100%;
+  margin: 20px auto;
+  padding: 30px 40px;
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: linear-gradient(
+    90deg,
+    #237CFF 0%,
+    #237CFF 70%,
+    #005ADE 70%,
+    #005ADE 100%
+  );
+}
+.banner-content{
+    background-color: #237CFF;
+}
+
+.banner-content h3 {
+  color : white;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  background :#237CFF;
+}
+
+.banner-content p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 19px;
+  font-weight: 20px;
+  background :#237CFF;
+  text-align: left;
+}
+
+.shop-btn {
+  background: #FF9017;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 6px;
+  font-size: 21px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-right:35px;
+}
+
+.shop-btn:hover {
+  opacity: 0.9;
+}

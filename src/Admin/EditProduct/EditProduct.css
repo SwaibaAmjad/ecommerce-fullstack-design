@@ -1,0 +1,41 @@
+.edit-product-page {
+  padding: 30px;
+}
+
+.edit-product-page h1 {
+  margin-bottom: 40px;
+  text-align:left ;
+}
+
+.edit-product-page form {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.edit-product-page input,
+.edit-product-page textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.edit-product-page textarea {
+  resize: vertical;
+}
+
+.edit-product-page button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #0d6efd;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.edit-product-page button:hover {
+  background-color: #0b5ed7;
+}

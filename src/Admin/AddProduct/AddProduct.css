@@ -1,0 +1,38 @@
+.add-product-page {
+  padding: 30px;
+}
+
+.add-product-page h1 {
+  margin-bottom: 30px;
+  background: transparent;
+  text-align:left ;
+  margin-left: 40px;
+}
+
+.add-product-form {
+  width: 500px;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.add-product-form input,
+.add-product-form textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+
+.add-product-form button {
+  padding: 12px;
+  background: #173EFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

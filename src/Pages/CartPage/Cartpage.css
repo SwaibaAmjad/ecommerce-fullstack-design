@@ -1,0 +1,11 @@
+.cart-page {
+  max-width: 1180px;
+  margin: 20px auto;
+}
+
+.cart-layout {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 20px;
+  align-items: start;
+}

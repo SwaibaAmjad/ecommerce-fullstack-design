@@ -1,0 +1,132 @@
+.product-info {
+  padding: 10px;
+  border:none;
+  background-color:white;
+}
+.instock{
+  color: rgb(0, 156, 0);
+  text-align: left;
+  background-color:white;
+
+}
+
+.title {
+  margin-bottom: 10px;
+  background-color:white;
+  text-align: left;
+  font-weight: 70px;
+}
+.icons{
+  font-size:20px;
+  margin-bottom:1px;
+  color:grey;
+  background:white;
+}
+
+/* RATING */
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #f59e0b;
+  margin-bottom: 10px;
+  background-color:white;
+}
+
+.stars {
+  display: flex;
+  gap: 3px;
+  background-color:white;
+}
+.count-rating{
+background-color:white;
+}
+
+.reviews-orders {
+  color: grey;
+  font-size: 18px;
+  background-color:white;
+}
+.dot{
+  font-size:7px;
+  background-color:white;
+  color:grey;
+}
+.price-section {
+  display: flex;
+  margin: 20px 0;
+}
+
+.price-box {
+  flex: 1;
+  padding: 15px;
+   background: #FFF0DF;
+}
+.price-box.active{
+  background: #FFF0DF;
+}
+
+.price-box:not(:last-child) {
+  border-right: 1px solid #BDC1C8;
+}
+
+.price-box h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1C1C1C;
+   background: #FFF0DF;
+}
+
+.price-box p {
+  color: #606060;
+  font-size: 14px;
+   background: #FFF0DF;
+
+}
+
+.price-box.active h3 {
+  color: #FA3434;
+   background: #FFF0DF;
+}
+.product-details {
+  margin-top: 20px;
+  background-color:white;
+}
+
+.detail-row {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  padding:3px;
+  background-color:white;
+}
+.detail-row1{
+  border-bottom: 1px solid;
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  padding:3px;
+  background-color:white;
+}
+.label {
+  color: #8B96A5;
+  font-size: 21px;
+  text-align:left;
+  background-color:white;
+}
+
+.value {
+  color: #505050;
+  font-size: 21px;
+  line-height: 1.4;
+  text-align:left;
+  margin-left: 50px;
+  background-color:white;
+}
+.addtocart{
+  width: 150px;
+  height: 40px;
+  background-color:#0B5ED7 ;
+  border: #0B5ED7;
+  border-radius:6px;
+  margin-top: 10px;
+  color: white;
+}

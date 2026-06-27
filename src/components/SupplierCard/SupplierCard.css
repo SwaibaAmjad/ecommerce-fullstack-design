@@ -1,0 +1,121 @@
+.supplier-card {
+  border: 1px solid #DEE2E7;
+  border-radius: 6px;
+  padding: 20px;
+  background: white;
+  height: fit-content;
+}
+
+/* Header */
+.supplier-header {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #DEE2E7;
+  background-color: white;
+}
+
+.supplier-logo {
+  width: 48px;
+  height: 48px;
+  background: #E3F0FF;
+  color: #0D6EFD;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 6px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.supplier-info{
+    background-color:white;
+}
+
+.supplier-label {
+  font-size: 18px;
+  color: black;
+  background-color: white;
+  text-align: left;
+}
+
+.supplier-header p {
+  font-size: 18px;
+  margin-top: 4px;
+  background-color: white;
+  text-align:left;
+  color: black;
+}
+
+/* Details */
+.supplier-details {
+  padding: 15px 0;
+  background-color: white;
+}
+
+.supplier-details p {
+  margin-left: 10px;;
+  font-size: 18px;
+  color: grey;
+  text-align:left;
+  background-color:white;
+}
+.supplier-icon{
+    margin-right:5px;
+    background-color:white;
+}
+/* Buttons */
+.supplier-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+  background-color:white;
+}
+
+.inquiry-btn,
+.profile-btn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.inquiry-btn {
+  background: #0D6EFD;
+  color: white;
+  border: none;
+}
+
+.inquiry-btn:hover {
+  background: #0b5ed7;
+}
+
+.profile-btn {
+  background: white;
+  color: #0D6EFD;
+  border: 1px solid #DEE2E7;
+}
+
+.save-btn {
+  width: 100%;
+  margin-top: 15px;
+  background: transparent;
+  border: none;
+  color: #0D6EFD;
+  cursor: pointer;
+  font-size: 18px;
+}
+.country {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.country img {
+  width: 20px;
+  height: 14px;
+  object-fit: cover;
+}

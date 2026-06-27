@@ -1,0 +1,22 @@
+.product-tabs {
+  display: flex;
+  gap: 25px;
+  border-bottom: 1px solid #DEE2E7;
+  margin-bottom: 20px;
+  background:white;
+}
+
+.product-tabs button {
+  background: none;
+  border: none;
+  padding: 16px 0;
+  cursor: pointer;
+  font-size: 16px;
+  color: #8B96A5;
+}
+
+.product-tabs button.active {
+  color: #0D6EFD;
+  border-bottom: 2px solid #0D6EFD;
+  font-weight: 500;
+} 

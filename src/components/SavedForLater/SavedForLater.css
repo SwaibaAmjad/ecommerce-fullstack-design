@@ -1,0 +1,81 @@
+.saved-products {
+  max-width: 1180px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border: 1px solid #DEE2E7;
+  border-radius: 6px;
+}
+
+.saved-products h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #1C1C1C;
+  background-color: white;
+}
+
+.saved-list {
+  display: flex;
+  gap: 20px;
+  background-color: white;
+}
+
+.saved-card {
+  flex: 1;
+  background-color: white;
+}
+
+.saved-image {
+  height: 200px;
+  background: #EEEEEE;
+  border-radius: 6px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F7F7F7;
+  margin-bottom: 15px;
+}
+
+.saved-image img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+  background-color: #F7F7F7;
+}
+
+.saved-card h4 {
+  font-size: 18px;
+  color: #1C1C1C;
+  margin-bottom: 8px;
+  background-color: white;
+}
+
+.saved-card p {
+  color: #606060;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  text-align: left;
+  background-color: white;
+}
+
+.move-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 10px 14px;
+  background: white;
+  border: 1px solid #DEE2E7;
+  border-radius: 6px;
+  margin-left: 10px;
+
+  color: #0D6EFD;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.move-btn svg {
+  font-size: 14px;
+}

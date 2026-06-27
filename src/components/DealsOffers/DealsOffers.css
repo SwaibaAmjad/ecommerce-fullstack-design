@@ -1,0 +1,100 @@
+
+.deals-container{
+  width: 100%;
+  margin: 30px auto;
+  display: flex;
+  border: 1px solid black;
+  border-radius: 3px;
+  background: white;
+}
+
+.deals-left {
+  width: 300px;
+  padding: 20px;
+  border-right: 0.2px solid grey ;
+  text-align: left;
+  background-color: white;
+  min-height: 250px;
+  height: auto;
+
+}
+
+.deals-left h2 {
+  margin-bottom: 5px;
+  color:black ;
+  background-color: white;
+
+}
+
+.deals-left p {
+  color: grey;
+  margin-bottom: 20px;
+  background-color: white;
+  
+}
+.deals-timer {
+  display: flex;
+  gap: 7px;
+  background-color: white;
+}
+
+.deals-timer div {
+  background: #444;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  border-radius: 4px;
+  width:50px;
+  height: 60px;
+}
+
+.deals-timer h4 {
+  background-color: #444;
+  margin: 0px;
+}
+
+.deals-timer span {
+  background-color: #444;
+  font-size: 12px;
+}
+
+.deals-products {
+  flex: 1;
+  display: flex;
+  gap: 0px ;
+  align-items: flex-start;
+}
+.deals-card{
+  border-right:0.2px solid grey;
+  padding:15px;
+  text-align:center;
+  background-color: white;
+  width:170px;
+}
+.deals-card:hover {
+  cursor: pointer;
+}
+.deals-card img {
+  width: 100px;
+  height: 150px;
+  object-fit: contain;
+  display: block;
+  margin-top: 0;
+  background-color: white;
+}
+
+.deals-card h5 {
+  margin: 10px 0;
+  background-color: white;
+}
+
+.deals-discount {
+  background: #ffe5e5;
+  color: red;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+.deals-card.active {
+  border: 1px solid #173EFF;
+}

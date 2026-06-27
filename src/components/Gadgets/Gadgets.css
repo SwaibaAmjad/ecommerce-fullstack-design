@@ -1,0 +1,71 @@
+
+.electronicsandgadgets{
+  display: flex;
+  gap: 0px;
+  border: 1px solid black;
+  border-radius:3px;
+  margin-top: 30px;
+  height:300x;
+}
+
+.left-banner-gadget{
+  width: 25%;
+  height: 300px;
+  background-size: cover;
+}
+.left-banner-gadget img{
+  width: 280px;
+  height: 300px;
+
+}
+.left-banner-gadget button{
+  position: relative;
+  right: 70px;
+  bottom:215px;
+  border: 0.5px solid black;
+  border-radius: 3px;
+  width: 120px;
+  height:30px;
+}
+.left-banner-gadget button:hover{
+  cursor:pointer ;
+  background-color: skyblue;
+}
+.gadget-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.gadget-card{
+  border: 0.3px solid grey;
+  height: 150px;
+  width: 211px;
+  padding: 15px;
+  position: relative;
+  overflow: hidden;
+  background-color:white ;
+}
+
+.gadget-card h4{
+  width: 60%;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: black;
+  background-color: white;
+}
+ 
+.gadget-card p{
+  width: 60%;
+  color: black;
+  background-color: white;
+}
+
+.gadget-card img{
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background-color:white ;
+}

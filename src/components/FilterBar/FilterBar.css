@@ -1,0 +1,63 @@
+.filter-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 20px;
+
+    background: white;
+    border: 1px solid #DEE2E7;
+    border-radius: 6px;
+
+    margin-bottom: 20px;
+}
+
+.filter-bar p{
+    font-size: 16px;
+    color: #1C1C1C;
+    background-color: white;
+}
+.strong{
+    background-color: white;
+}
+.filter-controls{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: white ;
+}
+
+.verified{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: white ;
+    font-size: 18px;
+}
+
+.featured-select{
+    padding: 8px 12px;
+
+    border: 1px solid #DEE2E7;
+    border-radius: 6px;
+    background-color: white ;
+    outline: none;
+}
+
+.view-btn{
+    width: 40px;
+    height: 40px;
+
+    border: 1px solid #DEE2E7;
+    background: white;
+
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view-btn:hover{
+    background: #F7FAFC;
+}

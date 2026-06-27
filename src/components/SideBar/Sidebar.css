@@ -1,0 +1,145 @@
+
+.sidebar {
+    width: 240px;
+}
+
+.filter-section {
+    border-bottom: 1px solid #E5E7EB;
+    padding: 20px 0;
+    background-color:#F7FAFC;
+}
+
+.filter-section h4 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    background-color:#F7FAFC;
+    text-align: left;
+    color: black;
+}
+
+.filter-section ul {
+    list-style: none;
+    padding: 0;
+    background-color:#F7FAFC;
+    text-align: left;
+}
+
+.filter-section li {
+    margin-bottom: 10px;
+    color: #505050;
+    background-color: #F7FAFC;
+    color: black;
+}
+.filter-section li:hover{
+  background-color: skyblue;
+  cursor: pointer;
+}
+
+.filter-section label {
+    display: block;
+    margin-bottom: 10px;
+    color: #505050;
+    cursor: pointer;
+    text-align: left;
+}
+
+.filter-section input[type="checkbox"] {
+  transform: scale(1.5);
+  margin-right: 8px;
+}
+
+.see-all {
+    color: #0D6EFD;
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 20px;
+   
+}
+
+.price-range-section {
+  padding: 20px 0;
+  border-top: 1px solid #DEE2E7;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+.pricing-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.pricing-header h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color:black;
+}
+
+.range-slider {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.range-slider input[type="range"] {
+  width: 100%;
+  accent-color: #0D6EFD;
+  margin: 0;
+}
+
+.price-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  color: #1C1C1C;
+}
+
+.price-inputs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.price-inputs input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #DEE2E7;
+  border-radius: 6px;
+  outline: none;
+}
+
+.apply-btn {
+  width: 100%;
+  padding: 10px;
+  background: white;
+  color: #0D6EFD;
+  border: 1px solid #DEE2E7;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.condition-section{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: black;
+  margin-top: 20px;
+}
+
+.condition-section h4{
+ text-align: left;
+ margin-bottom:5px;
+}
+
+.condition-section label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.condition-section input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  accent-color: #0D6EFD; 
+}

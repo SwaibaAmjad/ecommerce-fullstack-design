@@ -1,0 +1,9 @@
+.product-page {
+  display: flex;
+  gap: 20px;
+  max-width: 1180px;
+  margin: auto;
+}
+.product-content{
+  flex: 1;
+}

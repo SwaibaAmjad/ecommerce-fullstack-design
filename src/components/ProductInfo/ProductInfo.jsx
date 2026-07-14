@@ -17,7 +17,7 @@ function ProductInfo() {
   console.log(product);
   const addToCart = async () => {
   try {
-    await fetch("http://localhost:5000/api/cart", {
+    await fetch(`${import.meta.env.VITE_API_URL}/api/cart`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

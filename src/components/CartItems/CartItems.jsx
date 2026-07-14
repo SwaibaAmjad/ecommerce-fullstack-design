@@ -12,7 +12,7 @@ function CartItems() {
   };
   const [items, setItems] = useState([]);
   useEffect(() => {
-  fetch("http://localhost:5000/api/cart")
+  fetch(`${import.meta.env.VITE_API_URL}/api/cart`)
     .then((res) => res.json())
     .then((data) => setItems(data))
     .catch((err) => console.log(err));
@@ -20,7 +20,7 @@ function CartItems() {
 
   const handleRemove = async (id) => {
   try {
-    await fetch(`http://localhost:5000/api/cart/${id}`, {
+    await fetch(`${import.meta.env.VITE_API_URL}/api/cart/${id}`, {
       method: "DELETE",
     });
 

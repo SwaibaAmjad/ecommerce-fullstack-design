@@ -15,7 +15,7 @@ function EditProduct() {
   });
 
   useEffect(() => {
-    fetch(`http://localhost:5000/api/products/${id}`)
+     fetch(`${import.meta.env.VITE_API_URL}/api/products/${id}`)
       .then((res) => res.json())
       .then((data) => setProduct(data));
   }, [id]);
@@ -30,7 +30,7 @@ function EditProduct() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    await fetch(`http://localhost:5000/api/products/${id}`, {
+    await fetch(`${import.meta.env.VITE_API_URL}/api/products/${id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",

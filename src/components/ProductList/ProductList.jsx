@@ -13,10 +13,10 @@ function ProductList(){
     console.log(products);
     console.log(products.length);
     useEffect(() => {
-    let url = "http://localhost:5000/api/products";
+    let url =`${import.meta.env.VITE_API_URL}/api/products`;
 
     if (search) {
-    url = `http://localhost:5000/api/products/search?q=${search}`;
+    url = `${import.meta.env.VITE_API_URL}/api/products/search?q=${search}`;
     }
 
     fetch(url)

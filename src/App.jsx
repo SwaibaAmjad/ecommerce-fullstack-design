@@ -6,7 +6,7 @@ import Footer from "./components/Footer/Footer";
 import Homepage from "./Pages/HomePage/HomePage";
 import ProductListingPage from "./Pages/ProductListingPage/ProductListingPage";
 import Webdetailpage from "./Pages/Webdetailpage/Webdetailpage";
-import Cartpage from "./Pages/CartPage/Cartpage";
+import CartPage from "./Pages/CartPage/CartPage";
 
 import AdminLayout from "./Admin/AdminLayout/AdminLayout";
 import Dashboard from "./Admin/Dashboard/Dashboard";

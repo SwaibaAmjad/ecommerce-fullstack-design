@@ -1,4 +1,4 @@
-import "./Cartpage.css";
+import "./CartPage.css";
 import CartItems from "../../components/CartItems/CartItems";
 import OrderSummary from "../../components/OrderSummary/OrderSummary";
 import ServiceFeatures from "../../components/ServiceFeatures/ServiceFeatures";

@@ -41,7 +41,7 @@ function App() {
 
         <Route
           path="/cart"
-          element={<Cartpage />}
+          element={<CartPage />}
         />
        <Route 
        path="/admin" element={<AdminLayout />}>
